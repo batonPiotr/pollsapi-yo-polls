@@ -45,9 +45,9 @@ export const Poll = ({ data }) => {
                         setSelectedOption={setSelectedOption}
                     />
                 ))}
-                <div className={'mt-5'}>
+                {/* <div className={'mt-5'}>
                     <SubmitSection hasVoted={!!voted} vote={vote} />
-                </div>
+                </div> */}
             </div>
         </>
     )
