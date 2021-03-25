@@ -35,14 +35,15 @@ const PollPage = ({ id }) => {
                             )}
                         </Card.Body>
                     </Card>
-                    <div className={'mt-4 text-center'}>
+                   
+                    {/* <div className={'mt-4 text-center'}>
                         <Link href={'/'}>
                             <a href={'/'} className={'btn btn-dark font-weight-bold'}>
                                 <i className={'fas fa-star text-warning shadow mr-2'} />
                                 Create new poll
                             </a>
                         </Link>
-                    </div>
+                    </div> */}
                     <Attribution />
                     <hr />
                     <SharePoll poll={poll} />
