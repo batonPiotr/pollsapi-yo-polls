@@ -20,5 +20,7 @@ export const SharePoll = ({ poll }) => {
     if (!poll) return null
     const text = buildShareText(poll)
     return (
+        <div>
+        </div>
     )
 }
