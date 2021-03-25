@@ -20,7 +20,7 @@ export const SharePoll = ({ poll }) => {
     if (!poll) return null
     const text = buildShareText(poll)
     return (
-        <div id={'share-poll'} className={'bg-o-warning p-4 rounded'}>
+        {/*<div id={'share-poll'} className={'bg-o-warning p-4 rounded'}>
             <h2 className={'text-center font-weight-bold'}>Share poll</h2>
             <div className="text-center">
                 <a href={getPollLink(poll)}>{getPollLink(poll)}</a>
@@ -50,6 +50,6 @@ export const SharePoll = ({ poll }) => {
                     </Toast.Header>
                 </Toast>
             </div>
-        </div>
+    </div>*/}
     )
 }
