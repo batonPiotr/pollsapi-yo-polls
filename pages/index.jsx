@@ -26,7 +26,7 @@ export default function Home() {
         <>
             <div className={'d-flex justify-content-center'}>
                 <div className={'my-5 py-3 col-md-6'}>
-                    <p className={'text-center'}>Easily create and share polls on message.</p>
+                    {/* <p className={'text-center'}>Easily create and share polls on message.</p>
                     <Card className={'shadow'} bg={'white'}>
                         <Card.Body>
                             <CreatePollForm
@@ -36,7 +36,7 @@ export default function Home() {
                                 serverError={error}
                             />
                         </Card.Body>
-                    </Card>
+                    </Card> */}
                     <Attribution />
                     <hr />
                     <div className={'mt-5 d-flex flex-column'}>
